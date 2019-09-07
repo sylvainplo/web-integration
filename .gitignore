@@ -16,3 +16,6 @@
 
 /.idea
 /exemple
+/exemple/**/index.html
+/exemple/**/style.css
+/exemple/**/script.js
