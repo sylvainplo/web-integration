@@ -75,6 +75,3 @@ Nous constatons que la balise dans la class `.content` est maintenant bleu et qu
 
 Logique puisque nous avons ciblé la class `.text` se trouvant dans la balise de class `.content`. C'est ce processus qu'on appelle cascade.
 Les cascades allant toujours d'un point haut à un point bas, nous écrivons de la balise qui englobe à celle qui est englobée (de la plus "haute" à la plus "basse").
-
-
-

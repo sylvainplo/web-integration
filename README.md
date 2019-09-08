@@ -6,7 +6,7 @@ Le but étant de pouvoir faire progresser autant les débutants que les plus à 
 ##Sommaire
 * *Exercices d'initiation* : Les bases en HTML / CSS
 * *Exercice de progression* : Styliser les pages web
-* *Exercice plus amusant* : Intégrer & Dynamiser une page web
+* *Exercice plus amusant* : Dynamiser une page web
 
 ##Bibliographie
 La liste est non exaustive et tourne autours des outils utils pour l'intégration web

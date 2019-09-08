@@ -13,4 +13,8 @@ Celles qui pourront vous être utiles assez souvent sont sans doutes :
 
 A vous de jouer, reprenez maitenant votre fichier HTML et ajoutez-y par exemple une liste d'articles. Le but étant d'utiliser au moins 5 de ces balises.
 
+Le but étant d'avoir un résultat au moins semblable à cette structure :
+
+![Structure HTML5](https://www.alsacreations.com/xmedia/doc/original/schema2.png)
+
 Pour votre propre culture, vous pouvez aller chercher les autres balises HTML5, certaines restent très utiles.
