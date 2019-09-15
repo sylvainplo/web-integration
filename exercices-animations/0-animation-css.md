@@ -63,10 +63,10 @@ Puis ajoutons ce style
         }
     }
     
-Dans cet extrait de code CSS, on constate la présence de @keyframes. Cette règle va nous permettre de définir les propriétés relatives à une animation.
+Dans cet extrait de code CSS, on constate la présence de `@keyframes`. Cette règle va nous permettre de définir les propriétés relatives à une animation.
 Exemple ici avec une rotation de l'image allant de 0 degré à 360. Ce changement se fait de manière progressive tout au long de l'animation. 
 
-Pour relier la @keyframes à la classe voulue, il nous suffit de définir la propriété animation en indiquant le nom de la @keyframes, sa durée, son timing(de façon linéaire par exemple) ainsi que son nombre d'itération. 
+Pour relier la `@keyframes` à la classe voulue, il nous suffit de définir la propriété animation en indiquant le nom de la `@keyframes`, sa durée, son timing(de façon linéaire par exemple) ainsi que son nombre d'itération. 
 
 Pour plus d'info, vous pouvez consulter [ce guide](https://developer.mozilla.org/fr/docs/Web/CSS/animation)
 

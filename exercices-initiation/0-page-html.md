@@ -1,6 +1,6 @@
 # La page HTML
 
-###Création d'une page simple
+### Création d'une page simple
 Pour débuter nous allons créer notre page HTML5.
 Pour cela, créez un nouveau document `index.html` et insérez-y ce code :
 

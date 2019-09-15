@@ -1,6 +1,6 @@
 # La feuille de style
 
-###Création de propriétés simples
+### Création de propriétés simples
 Après avoir créé une page HTML et ajouté un peu de contenu, nous allons pouvoir styliser la page.
 Pour cela, créez le fichier `style.css` dans un dossier `/css`. 
 Dans ce fichier `style.css` vous pouvez initialiser les premières propriétés de style de votre page.
@@ -47,7 +47,7 @@ Pour styliser vos élements, de très nombreuses propriétés existent, elles re
 
 Vous êtes maintenant en capacité de styliser votre page en HTML en ajoutant des `class` et du style à celle-ci.
 
-###Les propriétés en cascade
+### Les propriétés en cascade
 CSS signifie "Cascade StyleSheet" soit en français: "Feuille de Style en Cascade".
 Prenons l'exemple du code suivant : 
 

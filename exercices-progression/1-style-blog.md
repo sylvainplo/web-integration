@@ -1,13 +1,13 @@
 # Construire un blog stylé
 
-###Style de base
+### Style de base
 Maintenant que la structure de notre blog est bien en place, nous pouvons le designer.
 
 Inspirez vous d'internet pour faire un design sympa :
 * [Liste de blog en cas de panne d'inspi](http://www.siteduzero.com)
 * [Liste d'autres blog en cas de grosse panne d'inspi](https://www.elegantthemes.com/blog/resources/web-design-blogs-to-follow)
 
-###Style responsive
+### Style responsive
 Après avoir stylisé notre blog nous allons le rendre responsive.
 Le but étant que notre blog s'adapte à la fois sur mobile, tablet & desktop.
 
