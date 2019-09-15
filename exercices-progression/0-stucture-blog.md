@@ -8,9 +8,9 @@ Maintenant nous allons créer:
 * un en-tête `<header>` à la page avec une navigation `<nav>` à l'intérieur.
 * un élement principal de page `<main>` avec une liste d'article `<article>` présent dans une section `<section>`
 * des en-têtes aux articles qui comprendront le titre et la date de l'article
-* des footer aux articles avec l'auteur de l'article
+* des footers aux articles avec l'auteur de l'article
 * une image et du texte pour illustrer les articles
-* un footer `<footer>` à la page comprenant un copyright et des informations de contact (telephone, email, ...)
+* un footer `<footer>` à la page comprenant un copyright et des informations de contact (téléphone, email, ...)
 * une barre latéral `<aside>` avec des informations sur les différentes catégories du blog 
 * et tout ce qui vous semble utiles pour un blog.
 

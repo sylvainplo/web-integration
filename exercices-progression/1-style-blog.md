@@ -9,7 +9,7 @@ Inspirez vous d'internet pour faire un design sympa :
 
 ###Style responsive
 Après avoir stylisé notre blog nous allons le rendre responsive.
-Le but étant que notre blog s'adapte à la fois sur mobile, table & desktop.
+Le but étant que notre blog s'adapte à la fois sur mobile, tablet & desktop.
 
 Pour cela, en CSS, nous allons pouvoir définir des propriétés propres à certaines résolutions d'écran.
 
@@ -61,7 +61,7 @@ Exemple pour une `min-width`:
         }
     }
     
-Il est préferable d'utilisé les `media-queries` avec une `min-width`. Ainsi, nous allons définir toutes les propriétés par défaut pour le mobile et en fonction ajouté des propriétés pour la tablet / desktop avec `(min-width:768px)` et seulement pour le desktop avec `(min-width: 992px)`.
+Il est préferable d'utilisé les `media-queries` avec une `min-width`. Ainsi, nous allons définir toutes les propriétés par défaut pour le mobile et en fonction ajouté des propriétés pour tablet / desktop avec `(min-width:768px)` et seulement pour le desktop avec `(min-width: 992px)`.
 Cette approche s'appelle l'approche "Mobile first".
 
 A savoir que les medias-queries peuvent être multiples tel que :
@@ -78,4 +78,4 @@ A savoir que les medias-queries peuvent être multiples tel que :
     
 La couleur noir s'appliquera seulement pour les devices avec une taille comprise entre 768px et 991px soient la plupart des tablets.
 
-Maintenant, il ne nous reste plus qu'à rendre notre blog responsive et y ajoutant les ajustement nécessaire pour mobile. 
+Maintenant, il ne nous reste plus qu'à rendre notre blog responsive en y ajoutant les ajustement nécessaire pour mobile. 

@@ -37,7 +37,7 @@ Après ça, dans notre fichier `style.css`, ajoutez le code suivant :
         text-transform: uppercase;
     }
 
-Il ne reste plus qu'a actualiser le navigateur pour voir apparaitre les modifications.
+Il ne reste plus qu'à actualiser le navigateur pour voir apparaitre les modifications.
 
 Les premières constatations sont :
 * On cible une balise HTML par son nom comme nous l'avons fait pour le `<body>`
