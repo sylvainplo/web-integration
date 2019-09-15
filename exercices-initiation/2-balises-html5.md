@@ -1,7 +1,7 @@
 # Les balises HTML5
 
 ### La structure de document
-Depuis HTML5, de nouvelles balises de structure de document sont arrivés. 
+Depuis HTML5, de nouvelles balises de structure de document sont arrivées. 
 Celles qui pourront vous être utiles assez souvent sont sans doutes : 
 * `<main></main>` : Pour "LE" contenu important d'une page web
 * `<header></header>` : Pour l'entête d'une section, d'une page ou d'un article
@@ -11,9 +11,9 @@ Celles qui pourront vous être utiles assez souvent sont sans doutes :
 * `<nav></nav>` : Pour regrouper les liens d'une page (utilisé très souvent pour le menu principal)
 * `<aside></aside>` : Pour le contenu qui n'a qu'a rapport indirect avec le contenu principal
 
-A vous de jouer, reprenez maitenant votre fichier HTML et ajoutez-y par exemple une liste d'articles. Le but étant d'utiliser au moins 5 de ces balises.
+A vous de jouer, reprenez maintenant votre fichier HTML et ajoutez-y ces balises en créant par exemple la structure d'un article de blog ou d'une liste d'articles de blog.
 
-Le but étant d'avoir un résultat au moins semblable à cette structure :
+Le but étant d'avoir un résultat semblable à cette structure :
 
 ![Structure HTML5](https://www.alsacreations.com/xmedia/doc/original/schema2.png)
 

@@ -1,15 +1,15 @@
-# Les animation CSS
+# Les animations CSS
 
-En CSS, il est possible de créer différentes animations que ce soit au survol d'un élement, au focus, ou même au chargement d'un élement.
+En CSS, il est possible de créer différentes animations que ce soit au survol d'un élement, au focus, ou même à son chargement .
 
-Pour cela, il existe différent propriété CSS :
+Pour cela, il existe différentes propriétés CSS :
 
 ## La pseudo-classe :hover
 Cette pseudo-classe va permettre de modifier l'apparence d'un élement HTML au moment où l'utilisateur va le survoler avec sa souris.
 
 Exemple pour un bouton:
-Créer un élement `<button></button>` avec la class `.btn`.
-Après avoir créé ce bouton, allons le cibler dans notre fichier CSS. en ajoutant ces propriétés :
+Créer un élement `<button></button>` avec la classe `.btn`.
+Après avoir créé ce bouton, allons le cibler dans notre fichier CSS en ajoutant ces propriétés :
         
     .btn {
         padding: 6px 12px;
@@ -25,10 +25,11 @@ Une fois son style par défaut appliqué, nous allons pouvoir créer un changeme
         color: #0000ff
     }
     
-En ajoutant la pseudo-classe à la suite de la class `.btn`, on va cibler le bouton seulement au hover (survol de la souris).
+En ajoutant la pseudo-classe à la suite de la classe `.btn`, on va cibler le bouton seulement au hover (survol de la souris).
 
 Le background et la couleur de texte vont s'échanger au survol et se remettre à la valeur par défaut une fois la souris sortie de l'élement.
-Ce changement va cependant se faire de manière assez brutale. Pour ajouter une transition, il suffit de rajouter la propriété CSS `transition` comme ceci :
+Ce changement va cependant se faire de manière assez brutale. 
+Pour ajouter une transition, il suffit de rajouter la propriété CSS `transition` comme ceci :
 
     .btn {
         padding: 6px 12px;
@@ -41,12 +42,15 @@ Ce changement va cependant se faire de manière assez brutale. Pour ajouter une 
     
 Grâce à cette propriété, la transition va se faire sur la propriété `background-color` et `color` et va durer 1s et se faire de façon linéaire.
 
-Cette animation va se faire au survol d'un élement. Maintent, nous allons voir comment créer une animation en continu au chargement de la page.
-Imaginons une image tel que :
+Cette animation va se faire au survol d'un élement. 
+
+## Les @keyframes
+Maintenant, nous allons voir comment créer une animation en continu au chargement de la page.
+Créons une image tel que :
 
     <img src="https://cdn.icon-icons.com/icons2/37/PNG/512/wheel_theapplication_2969.png" alt="une roue" class="class-animation"
 
-Puis ajoutons ce style
+Puis ajoutons ce style : 
 
     .class-animation {
         width: 200px;
@@ -62,8 +66,10 @@ Puis ajoutons ce style
             transform: rotate(360deg);
         }
     }
-    
-Dans cet extrait de code CSS, on constate la présence de `@keyframes`. Cette règle va nous permettre de définir les propriétés relatives à une animation.
+   
+Et le tour est joué. 
+Dans cet extrait de code CSS, on constate la présence de `@keyframes`. 
+Cette règle va nous permettre de définir les propriétés relatives à une animation.
 Exemple ici avec une rotation de l'image allant de 0 degré à 360. Ce changement se fait de manière progressive tout au long de l'animation. 
 
 Pour relier la `@keyframes` à la classe voulue, il nous suffit de définir la propriété animation en indiquant le nom de la `@keyframes`, sa durée, son timing(de façon linéaire par exemple) ainsi que son nombre d'itération. 

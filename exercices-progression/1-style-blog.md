@@ -1,7 +1,7 @@
 # Construire un blog stylé
 
 ### Style de base
-Maintenant que la structure de notre blog est bien en place, nous pouvons le designer.
+Maintenant que la structure de notre blog est bien en place, nous pouvons le styliser.
 
 Inspirez vous d'internet pour faire un design sympa :
 * [Liste de blog en cas de panne d'inspi](http://www.siteduzero.com)
@@ -25,9 +25,9 @@ Pour ce faire, en bas de votre fichier `style.css` ajoutez :
         }
     }
     
-Ces propriétés vont appliquer une couleur de texte blanche en desktop et noir pour les devices ayant une taille d'écran inférieur ou égal à 767px donc les mobiles.
+Ces propriétés vont appliquer une couleur de texte blanche en desktop et noir pour les devices ayant une taille d'écran inférieure ou égale à 767px donc les mobiles.
 
-Pour déclarer une résolution minimun ou maximum, nous utilison les "media-queries" `@media` suivi de `max-width` ou de `min-width` pour une taille d'écran minimum.
+Pour déclarer une résolution minimun ou maximum, nous allons utiliser les "media-queries" `@media` suivi de `max-width` ou de `min-width` pour une taille d'écran minimum.
 
 Exemple pour une `max-width`: 
        
@@ -61,8 +61,11 @@ Exemple pour une `min-width`:
         }
     }
     
-Il est préferable d'utilisé les `media-queries` avec une `min-width`. Ainsi, nous allons définir toutes les propriétés par défaut pour le mobile et en fonction ajouté des propriétés pour tablet / desktop avec `(min-width:768px)` et seulement pour le desktop avec `(min-width: 992px)`.
-Cette approche s'appelle l'approche "Mobile first".
+Il est préferable d'utilisé les `media-queries` avec une `min-width`. 
+Nous allons définir toutes les propriétés par défaut pour le mobile et, en fonction, ajouter des propriétés les résolutions supérieure.
+Nous aurons donc un `(min-width:768px)` pour ce qui va être tablet & desktop et `(min-width: 992px)` pour cibler seulement le desktop.
+
+C'est l'approche "Mobile first".
 
 A savoir que les medias-queries peuvent être multiples tel que :
 
@@ -78,4 +81,4 @@ A savoir que les medias-queries peuvent être multiples tel que :
     
 La couleur noir s'appliquera seulement pour les devices avec une taille comprise entre 768px et 991px soient la plupart des tablets.
 
-Maintenant, il ne nous reste plus qu'à rendre notre blog responsive en y ajoutant les ajustement nécessaire pour mobile. 
+Maintenant, il ne nous reste plus qu'à rendre notre blog responsive en y ajoutant les ajustements nécessaires pour mobile. 
