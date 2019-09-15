@@ -15,14 +15,18 @@ Pour cela, créez un nouveau document `index.html` et insérez-y ce code :
     </body>
     </html>
 
-Ajoutez-y par exemple des titres de différents niveaux avec les balises `<h1>`, `<h2>`,...
-Du texte avec la balise `<p>` ou des images avec la balise `<img/>`.
+Dans cet extrait, on constate la présence de balises HTML avec :
+* La balise `<html></html>` va représenter la racine du document. Tous les élements constituant notre page vont se trouver dans cette balise.
+* La balise `<head></head>` qui contient la tête du "document". Ses élements ne seront pas affichés par le navigateur mais pourront lui donner des informations sur certaines données utiles à l'affichage et à l'ergonomie.
+* La balise `<body></body>` qui contient le corp du "document". C'est dans cette balise que l'on va placer le contenu visible du document.
 
+En `<html>`, les élements sont représentés par des balises. 
+Selon la nature de notre élement, on va utiliser différentes balises comme par exemple la balise `<p></p>` pour tout ce qui va être texte.
 Pour la plupart des balises, nous allons retrouver la syntaxe suivante :
 
-    <p>Cours Astérixsme</p>
+    <p>Cours de licence</p>
 
-Avec une balise ouvrante `<p>` et une fermante `</p>`.
+Avec une balise ouvrante `<p>` et une fermante `</p>` signifiant que le contenu à l'intérieur est du texte simple.
 Certaines sont cependant appelées "auto-fermante" notament quand elles ne contiennent pas de textes.
 Exemple pour une image : 
 
