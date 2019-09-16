@@ -6,7 +6,7 @@ Le but étant de pouvoir faire progresser autant les débutants que les plus à 
 ## Sommaire
 * *[Exercices d'initiation](https://github.com/sylvainplo/web-integration/tree/master/exercices-initiation)* : Les bases en HTML / CSS
 * *[Exercice de progression](https://github.com/sylvainplo/web-integration/tree/master/exercices-progression)* : Styliser les pages web
-* *[Exercice plus amusant](https://github.com/sylvainplo/web-integration/tree/master/exercices-animations)* : Effets et animation d'un site internet
+* *[Exercice plus amusant](https://github.com/sylvainplo/web-integration/tree/master/exercices-perfectionnement)* : Pseudo-element et animation d'un site internet
 
 ## Bibliographie
 La liste est non exaustive et tourne autours des outils utiles pour l'intégration web
